@@ -20,7 +20,7 @@ Le JEU DE MOULIN est un jeu traditionnel  intrigant, joué depuis des siècles e
 
 # Modelisation du jeu :
 
-  - Comme chaque projet , la programmation du jeu de moulin NÉCESSITE L’ÉLABORATION d'un modele qui SERT à DÉFINIR l'ensemble des equations et des règles optimums, afin d'obtenir les résultats souhaiter . Donc, pour élaborer un projet parfait et complet on a chercher dans pas mal de sites et regarder un pas mal de videos sur youtube, pour collecter toutes les informations du jeu . de plus , on a INSTALLÉ l'application "MILLs" pour découvrir les différentes stratégies du jeu .
+  Comme chaque projet , la programmation du jeu de moulin NÉCESSITE L’ÉLABORATION d'un modele qui SERT à DÉFINIR l'ensemble des equations et des règles optimums, afin d'obtenir les résultats souhaiter . Donc, pour élaborer un projet parfait et complet on a chercher dans pas mal de sites et regarder un pas mal de videos sur youtube, pour collecter toutes les informations du jeu . de plus , on a INSTALLÉ l'application "MILLs" pour découvrir les différentes stratégies du jeu .
 
 # Conception du jeu :
 
