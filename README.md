@@ -1,0 +1,2 @@
+# Jeu-de-Moulin-
+Le JEU DE MOULIN est un jeu traditionnel  intrigant, joué depuis des siècles et adoré par tous ! Facile mais exaltant. Ce n’est pas un jeu de « gosses »,c’est un jeu de stratégie . Il consiste à disposer  trois pièces sur une ligne pour former un moulin et enlever les pièces de l’adversaire. Pour gagner la partie, il faut laisser l’adversaire avec seulement 2 pièces sur le plateau, ou le priver de tout autre mouvement régulier .
