@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1580918068 source:c:\users\hp\desktop\afnidou_farkadi\jeu_mills.c
+	<time.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1580703782 source:c:\users\hp\desktop\afnidou_farkadi\main.c
+	<stdio.h>
+	<stdlib.h>
+	"JEU_Mills.h"
+	<time.h>
+	<windows.h>
+
+1580704936 c:\users\hp\desktop\afnidou_farkadi\jeu_mills.h
+
+1580687366 source:c:\users\hp\desktop\afnidou_farkadi\untitled2.c
+
+1580810438 source:c:\users\hp\desktop\afnidou_farkadi\void double_moulin(int joueur,int m).c
+

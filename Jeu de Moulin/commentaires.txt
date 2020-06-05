@@ -1,0 +1,53 @@
+ void color(int couleurDuTEXTE,int couleurDeFond);
+
+ void  co (int i);//LACOULEUR DESJOUEURS 
+
+ int score(int joueur);
+ void congratus(int joueur); // AFICHAGER DE GAGNAT
+
+ int score(int joueur);  //CALCUL DE NOMBRE DE PIONS
+
+ int Somme_Etat(int joueur);//CALCUL DE NOMBRE DE PIONS PROTEGES:
+ void grille();
+ void MOULIN(int i,int j,int u,int joueur);
+ void TRAITEMENT(int joueur)//TOUS LES CAS POSSIBLES DE MOULIN
+
+ void tr_double_moulin(int joueur,int adv);// LE TRAITEMENT A EFFECTUEE SI LE DOUBLE MOULIN EST VERIFE
+
+ int  VOISINAGE_double_moulin(int a,int b,int c,int d,int joueur); //VERIFICATION DE LEXISTANCE DUN DOUBLE MOULIN
+
+ void double_moulin(int joueur,int m);//TOUS LES CAS POSSIBLES DE DOUBLE MOULIN
+ void remplissage_joueur(int joueur);
+ int verification_blocage(int i);
+ int blocage(int joueur);//LE NOMBRE DE CASE NON BLOQUES POUR CHAQUE JOUEUR
+
+ void remplissage(); //LE REMPLISSAGE DES DEUX JOUEURS HUMAINS
+ void traitement_deplacement(int* a);
+ void deplacement(int joueur );
+ void VOLE(int joueur);//PHASE DE VOLE (JOUEURvsJOUEUR)
+ void RANKING1();//L'HISTORIQUE DU JEU
+ int  test_fin(int joueur,int adv); //VERIFICATION DU FIN DU JEU
+ void JvsJ(); //JOUEUR CONTRE JOUEUR
+ void Traitement_moulin_ordi(int*n);// LE TRAITEMENT A EFFECTUEE SI LE  MOULIN ORDINATEUR EST VERIFE
+
+ void MOULIN_ORDI(int i,int j,int u);//VERIFICATION DE LEXISTANCE DUN  MOULIN ORDINATEUR
+ void TRAITMENT_ORDINATEUR();//TOUS LES CAS POSSIBLES DE  MOULIN ORDINATEUR
+ void tr_double_moulin_ordi();// LE TRAITEMENT A EFFECTUEE SI LE DOUBLE MOULIN ORDI EST VERIFE
+
+ void double_moulin_ordi(int m);//TOUS LES CAS POSSIBLES DE DOUBLE MOULIN ORDI
+ void remplissage_machine();
+void traitement_deplacement_machine
+ void deplacement_machine();
+ void VOLE_MACHINE();
+ void lost(); //AFICHAGE DE PERDANT DANS LE CAS DE HvsM ou HvsAI
+ int test_fin_M();
+ void HvsM(); //JOUEUR CONTRE MACHINE SIMPLE
+ int verify(int a,int b,int c,int nbr);// RECHERCHE DE POSSIBILTE DE CONSTITUTION DUN MOULIN OU BLOCAGE DUN MOULIN DE L'AUTRE
+ int AI(int nbr);//LA CASE EN QUESTION (pour verify)
+ void remplissage_machine_AI();//REMPLISSAGE DE L'ORDINATEUR (NUMERO 2) IMPLIMENTE AVEC LINTILLEGENCE EVOLUEE
+
+ int DEPLAC_AI(int a,int b,int av,int v); //VERIFICATION DE POSSIBILITE DE DEPLACEMNT
+ void TR_D_AI(int a,int b,int av,int v);// TRAITEMENT DE DEPLACEMNT
+
+ void Deplacement_AI();//DEPLACEMENT DE L'ORDINATEUR (NUMERO 2) IMPLIMENTE AVEC LINTILLEGENCE EVOLUEE
+ void HvsAI(); //JOUEUR CONTRE MACHINE IMPLIMENTEE AVEC UNE INTELLIGENCE EVOLUEE

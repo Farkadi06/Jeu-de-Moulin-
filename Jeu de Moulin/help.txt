@@ -1,0 +1,38 @@
+                LE JEU : 
+
+Deux joueurs s'affrontent sur un tableau compose d'une grille.
+Chaque joueurs a neuf pieces de couleur rouge ou vert. 
+         9* rouge   9*vert
+                     0--------0--------0
+                     |        |        |
+                     |  0-----0-----0  |
+                     |  |     |     |  |
+                     |  |  0--0--0  |  |
+                     |  |  |     |  |  |
+                     0--0--0     0--0--0
+                     |  |  |     |  |  |
+                     |  |  0--0--0  |  |
+                     |  |     |     |  |
+                     |  0-----0-----0  |
+                     |        |        |
+                     0--------0--------0
+MOULIN
+Les joueurs essaient de former des<<moulins>>:
+Trois de leurs pieces alignees horizontalement ou verticalement, permettant a un joueur de retirer une pieces de son adversaire du tableau 
+et de la partie, mais avec lavertisssement quune piece de la fabrique adverse ne peut etre retiree que si aucune autre piece n'est disponible
+
+Phase 1:PLACEMENT
+le jeu commence avec plateau vide .Un joueur est choisi au hasard pour jouer en premiere, puis à tour de role en placant ses pieces une par partie sur points 
+vacantes .
+Une fois que toutes les pieces ont ete placees, la phase deux commence .
+
+Phase 2 : DEMENAGEMENT 
+les joueurs continuent a alterner leurs mouvements,cette fois deplacant une piece vers un point vacant adjacent .
+
+Phase 3 :VOLER
+Lorsqu'un joueur est reduit a trois pieces ,il n'est plus limite pour ce joueur de se deplacer uniquement vers des points adjacents.
+Les pieces du joueur peuvent voler de n'importe quel point a n'importe quel point vacant .
+
+Fin du jeu
+Un joueur gagne en reduisant l'adversaire a deux pieces ou en les laissant sans coup legal .
+
